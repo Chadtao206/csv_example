@@ -13,7 +13,7 @@
     <h1>HELLO WORLD</h1>
   </body>
   <script type="text/javascript">
-    d3.text("./data.csv", function(data) {
+    d3.text("./example.csv", function(data) {
       var parsedCSV = d3.csv.parseRows(data);
       var container = d3
         .select("body")
